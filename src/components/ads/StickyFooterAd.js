@@ -1,6 +1,6 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import { Bling as GPT } from "react-gpt";
+import { Bling as GPT } from "@codingcatdev/react-gpt";
 import styles from './styles';
 
 class StickyBottomAd extends React.Component {
