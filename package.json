@@ -2,7 +2,7 @@
   "name": "hrdw-test-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/test/react-ads",
+  "homepage": "/",
   "dependencies": {
     "@codingcatdev/react-gpt": "^2.0.13",
     "@testing-library/jest-dom": "^5.11.8",

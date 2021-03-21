@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import BottomSidebarAd from '../components/ads/BottomSidebarAd';
 import TopLeaderboardAd from '../components/ads/TopLeaderboardAd';
 import TopSidebarAd from '../components/ads/TopSidebarAd';
 
+// GPT.collapseEmptyDivs();
+
 export const DetailsPage = () => {
+  const addPrebid = () => {
+    const script = document.createElement('script');
+    script.src = 'prebid.js';
+    document.head.append(script);
+  };
+
+  const addWrapper = () => {
+    const script = document.createElement('script');
+    script.src = 'prebid-wrapper.js';
+    document.head.append(script);
+  };
+
+  useEffect(() => {
+    addPrebid();
+    setTimeout(addWrapper, 1000);
+  });
+
   return (
     <>
       <header>

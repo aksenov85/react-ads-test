@@ -36,7 +36,7 @@ class TopSidebarAd extends React.Component {
       <GPT 
         id={this.divId}
         style={styles.gptAdSlot}
-        adUnitPath="/5186114/Startseite"
+        adUnitPath="/115975610/quizzzes-com-ad-unit"
         sizeMapping={[
           { viewport: [783, 0], slot: [300, 250] },
           { viewport: [320, 0], slot: [] },

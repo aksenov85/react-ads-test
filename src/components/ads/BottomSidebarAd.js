@@ -1,7 +1,9 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import { Bling as GPT } from "@codingcatdev/react-gpt";
-import styles from './styles'
+import styles from './styles';
+
+// GPT.collapseEmptyDivs();
 
 class BottomSidebarAd extends React.Component {
   constructor({ refresh = null }) {
@@ -36,7 +38,7 @@ class BottomSidebarAd extends React.Component {
       <GPT 
           id={this.divId}
           style={styles.gptAdSlot}
-          adUnitPath="/5186114/Startseite"
+          adUnitPath="/115975610/quizzzes-com-ad-unit"
           sizeMapping={[
             { viewport: [783, 0], slot: [[300, 600], [300, 250]] },
             { viewport: [320, 0], slot: [] },
