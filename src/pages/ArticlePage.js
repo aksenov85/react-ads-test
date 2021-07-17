@@ -6,7 +6,7 @@ import TopSidebarAd from '../components/ads/TopSidebarAd';
 
 export const ArticlePage = () => {
   return (
-    <>
+    <React.Fragment>
       <header>
         <TopLeaderboardAd />
       </header>
@@ -39,6 +39,6 @@ export const ArticlePage = () => {
           <BottomSidebarAd />
         </div>
       </main>
-    </>
+    </React.Fragment>
   );
 };

@@ -17,7 +17,7 @@ class TopLeaderboardAd extends React.Component {
         const slot = slots.find(i => i.getSlotElementId() === this.divId);
 
         if (slot) {
-          this.interval = window.setInterval(() => { 
+          this.interval = window.setInterval(() => {
             GPT.refresh([slot]);
           }, this.refresh);
         }
@@ -36,9 +36,10 @@ class TopLeaderboardAd extends React.Component {
       <GPT 
         id={this.divId}
         style={styles.gptAdSlot}
-        adUnitPath="/5186114/Startseite"
+        adUnitPath="/5186114/home-leaderboard-top"
         sizeMapping={[
-          { viewport: [783, 0], slot: [728, 90] },
+          { viewport: [783, 0], slot: [[728, 90], [970, 90], [970, 250]] },
+          { viewport: [490, 0], slot: [468, 60] },
           { viewport: [320, 0], slot: [320, 50] },
           { viewport: [0, 0], slot: [] }
         ]}

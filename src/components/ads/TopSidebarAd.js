@@ -36,9 +36,9 @@ class TopSidebarAd extends React.Component {
       <GPT 
         id={this.divId}
         style={styles.gptAdSlot}
-        adUnitPath="/5186114/Startseite"
+        adUnitPath="/5186114/sidebar"
         sizeMapping={[
-          { viewport: [783, 0], slot: [300, 250] },
+          { viewport: [783, 0], slot: [[300, 600], [300, 250]] },
           { viewport: [320, 0], slot: [] },
           { viewport: [0, 0], slot: [] }
         ]}

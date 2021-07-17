@@ -37,10 +37,10 @@ class InContentAd extends React.Component {
       <GPT 
         id={this.divId}
         style={styles.gptAdSlot}
-        adUnitPath="/5186114/Startseite"
+        adUnitPath="/5186114/home-leaderboard-middle"
         sizeMapping={[
-          { viewport: [783, 0], slot: [[728, 90], [300, 250]] },
-          { viewport: [320, 0], slot: [300, 250] },
+          { viewport: [783, 0], slot: [[728, 90], [468, 60]] },
+          { viewport: [320, 0], slot: [320, 50] },
           { viewport: [0, 0], slot: [] }
         ]}
         targeting={{ pos: this.divId, env: 'test' }}

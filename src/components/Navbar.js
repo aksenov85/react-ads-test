@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
-    <>
+    <React.Fragment>
       <nav>
         <div className="nav-wrapper blue">
           <NavLink to="/" className="brand-logo">Test</NavLink>
@@ -14,6 +14,6 @@ export const Navbar = () => {
           </ul>
         </div>
       </nav>
-    </>
+    </React.Fragment>
   );
 };
